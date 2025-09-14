@@ -3,5 +3,5 @@
 
 ---
 
-<h1 id="build-your-own-brain-">BUILD YOUR OWN BRAIN-</h1>
+<h1 id="build-your-own-brain-linear-regression">BUILD YOUR OWN BRAIN-LINEAR REGRESSION</h1>
 

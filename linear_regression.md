@@ -4,10 +4,10 @@
 ---
 
 <h1 id="build-your-own-brain-linear-regression">BUILD YOUR OWN BRAIN-LINEAR REGRESSION</h1>
-<p>**Linear Regression **  is a fundamental <strong>supervised machine learning algorithm</strong> used for prediction. It aims to predict a dependent variable (y), based on an independent variable (x).<br>
+<p><strong>Linear Regression</strong>  is a fundamental <strong>supervised machine learning algorithm</strong> used for prediction. It aims to predict a dependent variable (y), based on an independent variable (x).<br>
 The process of finding the right function to predict a dependent variable (y) from an independent variable (x) is called <strong>regression</strong>. When this function is assumed to be a <strong>linear function</strong> represented by <strong>y = αx + β</strong>, where α is the slope and β is the intercept, it is then referred to as <strong>linear regression</strong>.</p>
-<p>The goal is to find the optimal values for α and β that make this line best fit the available training data. The “fit” is quantified by calculating the <strong>sum of the squared differences (residuals)</strong> between the actual data points and the values predicted by the line. By minimizing this sum, the best-fit line is determined, often by computing the gradient and setting it to zero to solve for the parameters.<br>
-<img src="https://github.com/riti2043/images-for-articles/blob/main/linearREggg.jpeg?raw=true" alt=""></p>
+<p>The goal is to find the optimal values for α and β that make this line best fit the available training data. The “fit” is quantified by calculating the <strong>sum of the squared differences (residuals)</strong> between the actual data points and the values predicted by the line. By minimizing this sum, the best-fit line is determined, often by computing the gradient and setting it to zero to solve for the parameters.</p>
+<p><img src="https://github.com/riti2043/images-for-articles/blob/main/linearREggg.jpeg?raw=true" alt=""></p>
 <h3 id="gradient-descent">Gradient Descent:</h3>
 <p>Gradient Descent is an iterative <strong>optimization algorithm</strong> used for training linear regression models by minimizing prediction error. Its goal is to find the optimal parameters (also referred to as weights), such as the <strong>intercept and slope</strong>, that minimize a <strong>Loss Function</strong> (e.g., the sum of squared residuals or Mean Squared Error)<br>
 The process:</p>
@@ -33,8 +33,8 @@ The process:</p>
 </ol>
 <p>◦ The <strong>step size becomes very small</strong> (e.g., 0.001 or smaller), indicating that the algorithm has approached the optimal value where the slope of the curve is close to zero.</p>
 <p>◦ The <strong>maximum number of steps</strong> (e.g., 1000 or greater) is reached, acting as a safeguard to prevent endless iteration.</p>
-<p>This iterative process allows Gradient Descent to take larger steps when far from the optimal solution and smaller “baby steps” as it gets closer to the minimum of the loss function. The algorithm is named <strong>“Gradient Descent”</strong> because it uses the gradient to descend to the lowest point in the loss function. When dealing with multiple parameters, the process remains the same, but involves taking more derivatives, one for each parameter.<br>
-<img src="!%5BGradient.jpeg%5D(https://github.com/riti2043/images-for-articles/blob/main/Gradient.jpeg?raw=true)" alt=""></p>
+<p>This iterative process allows Gradient Descent to take larger steps when far from the optimal solution and smaller “baby steps” as it gets closer to the minimum of the loss function. The algorithm is named <strong>“Gradient Descent”</strong> because it uses the gradient to descend to the lowest point in the loss function. When dealing with multiple parameters, the process remains the same, but involves taking more derivatives, one for each parameter.</p>
+<p><img src="!%5BGradient.jpeg%5D(https://github.com/riti2043/images-for-articles/blob/main/Gradient.jpeg?raw=true)" alt=""></p>
 <h3 id="common-evaluation-metrics-for-linear-regression">Common Evaluation Metrics for Linear Regression</h3>
 <p>Evaluation metrics help determine the strength and performance of a linear regression model.</p>
 <ol>
